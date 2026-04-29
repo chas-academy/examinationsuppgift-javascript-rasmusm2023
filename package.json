@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "live-server src"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
-        "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^20.0.0"
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^20.0.0",
+    "live-server": "^1.2.2"
   }
 }
